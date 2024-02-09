@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import CoinContainer from './CoinContainer';
+import Box from './Box';
+import BoxContainer from './BoxContainer';
+import WiseSquare from './WiseSquare';
+import AnnoyingForm from './AnnoyingForm';
+import CopyDemo from './CopyDemo';
+import WiseSquareWithProps from './WiseSquareWithProps';
+import ExperimentalSquare from './ExperimentalSquare';
+import ButtonList from './ButtonList';
+import NumberList from './NumberList';
+import BetterNumberList from './BetterNumberList';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CoinContainer /> */}
+      {/* <Box /> */}
+      {/* <BoxContainer /> */}
+      {/* <WiseSquare /> */}
+      {/* <AnnoyingForm /> */}
+      {/* <CopyDemo /> */}
+      {/* <WiseSquareWithProps /> */}
+      {/* <ExperimentalSquare /> */}
+      {/* <ButtonList /> */}
+      <NumberList />
+      <BetterNumberList />
+
     </div>
   );
 }
